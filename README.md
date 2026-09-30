@@ -1,7 +1,8 @@
 web-site to the chatbot: https://fda-drug-chatbot.streamlit.app/
 example:
 <img width="1894" height="976" alt="Screenshot 2026-09-30 133329" src="https://github.com/user-attachments/assets/9d798fb3-fe37-4625-8c20-e196f2bdda31" />
-<img width="1897" height="620" alt="Screenshot 2026-09-30 133149" src="https://github.com/user-attachments/assets/2e4666f7-36dc-4cba-804b-9c35f9e46cac" />
+<img width="1843" height="793" alt="Screenshot 2026-09-30 133243" src="https://github.com/user-attachments/assets/026791f7-e561-4adb-9062-a0f083315b53" />
+
 <img width="1862" height="843" alt="Screenshot 2026-09-30 133254" src="https://github.com/user-attachments/assets/efdd5d42-8c72-4fce-92de-26cc6da030a2" />
 
 So this chatbot is built on the Kaggle dataset: FDA Drug Label Data, but only a small set of the data.
