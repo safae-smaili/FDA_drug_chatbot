@@ -7,11 +7,15 @@ Backend: http://localhost:8000/chat
 import uuid
 import requests
 import streamlit as st
+import os
 
-# ─── Configuration ────────────────────────────────────────────────────
-BACKEND_URL = "http://localhost:8000/chat"
-REQUEST_TIMEOUT = 60  # seconds
-
+# BACKEND_URL = "http://localhost:8000/chat"
+# REQUEST_TIMEOUT = 60  # seconds
+BACKEND_URL = os.getenv(
+    "BACKEND_URL",
+    "http://localhost:8000/chat"
+)
+REQUEST_TIMEOUT = 60
 
 # ─── Page setup ───────────────────────────────────────────────────────
 st.set_page_config(
