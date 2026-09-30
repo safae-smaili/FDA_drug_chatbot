@@ -1,0 +1,22 @@
+.env
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+fda_chat/
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+.DS_Store
+Thumbs.db
+
+*.log
